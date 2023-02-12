@@ -1,7 +1,7 @@
 <template>
-  <div class="flex mt-6">
+  <div class="flex mt-6 h-[400px]">
     <slot />
   </div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts" setup></script>

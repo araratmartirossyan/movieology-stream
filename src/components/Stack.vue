@@ -1,10 +1,8 @@
+<script lang="ts" setup></script>
+
 <template>
-  <div class="relative max-w-md w-full drop-shadow-xl">
-    <div class="bg-oranje absolute top-0 w-full h-full rounded-2xl" />
+  <div class="relative drop-shadow-md">
+    <div class="absolute w-full h-full top-0 rounded-2xl bg-oranje" />
     <slot />
   </div>
 </template>
-
-<script setup lang="ts"></script>
-
-<style></style>

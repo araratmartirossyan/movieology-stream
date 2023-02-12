@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
 interface Banner {
   title: string
   plot: string
@@ -26,9 +24,7 @@ const bg = `url(${bannerMock.poster})`
 </script>
 
 <template>
-  <div
-    class="banner flex p-8 w-full h-[400px] rounded-2xl drop-shadow-xl cursor-pointer"
-  >
+  <div class="banner flex p-8 w-full rounded-2xl drop-shadow-xl cursor-pointer">
     <div class="text-white self-end">
       <h1 class="text-4xl mb-2 font-bold">{{ bannerMock.title }}</h1>
       <p>{{ bannerMock.plot }}</p>
