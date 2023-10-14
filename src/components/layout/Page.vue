@@ -1,13 +1,8 @@
 <script lang="ts" setup>
-withDefaults(
-  defineProps<{
-    title?: string
-    paddingless: boolean
-  }>(),
-  {
-    paddingless: false
-  }
-)
+const { paddingless = false } = defineProps<{
+  title?: string
+  paddingless?: boolean
+}>()
 </script>
 
 <template>
